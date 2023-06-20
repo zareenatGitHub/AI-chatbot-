@@ -1,0 +1,106 @@
+{
+  "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey there!, welcome to our skincare bot! how can I help you",
+          "Hello, how can I help you",
+          "Hello!, how can I help you with your skincare needs?",
+          "Hi there, how can I help you with your skincare needs?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, glad to help you",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure","So glad that it was helpful"]
+      },
+      {
+        "tag": "skincare",
+        "patterns": [
+          "What skincare products should I use?",
+          "Can you recommend skincare products?",
+          "Can you suggest me skincare products?",
+          "any skin care product recommendations?",
+          "What is the best skincare routine for me?",
+          "What products are good for my skin type?"
+        ],
+        "responses": [
+          "Sure! What is your skin type? We recommend products based on your skin type:[oily/dry/normal/combination/sensitive]",
+          "No problem! Can you tell me your skin type :[oily/dry/normal/combination/sensitive]?"
+        ]
+      },
+      {
+        "tag": "oily_skin",
+        "patterns": [
+          "oily",
+          "My skin is oily",
+          "What products are best for oily skin?",
+          "What should I use for my oily skin?",
+          "Can you recommend products for oily skin?"
+        ],
+        "responses": [
+          "For oily skin, we recommend products that help control oil production and prevent breakouts. Some of our recommended products include: \n1. Oil-free cleansers \n2. Salicylic acid exfoliants \n3. Lightweight, oil-free moisturizers \n4. Non-comedogenic sunscreens \n5. Clay masks \nLet us know if you have any questions or need further recommendations!"
+        ]
+      },
+      {
+        "tag": "dry_skin",
+        "patterns": [
+          "dry",
+          "My skin is dry",
+          "What products are best for dry skin?",
+          "What should I use for my dry skin?",
+          "Can you recommend products for dry skin?"
+        ],
+        "responses": [
+          "For dry skin, we recommend products that help hydrate and nourish the skin. Some of our recommended products include: \n1. Creamy, hydrating cleansers \n2. Hyaluronic acid serums \n3. Rich, emollient moisturizers \n4. Non-alcohol toners \n5. Gentle exfoliants \nLet us know if you have any questions or need further recommendations!"
+        ]
+      },
+      {
+        "tag": "combination_skin",
+        "patterns": [
+          "combination",
+          "My skin is combination",
+          "What products are best for combination skin?",
+          "What should I use for my combination skin?",
+          "Can you recommend products for combination skin?"
+        ],
+        "responses": [
+          "For combination skin, we recommend products that balance oil production and provide hydration without clogging pores. Some of our recommended products include: \n1. Gel or foam cleansers \n2. Lightweight moisturizers \n3. Non-comedogenic sunscreens \n4. Oil-absorbing sheets \n5. Chemical exfoliants \nLet us know if you have any questions or need further recommendations!"
+        ]
+      },
+      {
+        "tag": "sensitive_skin",
+        "patterns": [
+          "sensitive",
+          "My skin is sensitive",
+          "What products are best for sensitive skin?",
+          "What should I use for my sensitive skin?",
+          "Can you recommend products for sensitive skin?"
+        ],
+        "responses": [
+          "For sensitive skin, we recommend products that are gentle and free from irritants. Some of our recommended products include: \n1. Fragrance-free, mild cleansers \n2. Barrier-repairing moisturizers \n3. Physical sunscreens \n4. Non-acidic exfoliants \n5. Products with soothing ingredients like aloe vera, chamomile, or oatmeal \nLet us know if you have any questions or need further recommendations!"
+        ]
+      }
+    ]
+  }
+
+
+
+
